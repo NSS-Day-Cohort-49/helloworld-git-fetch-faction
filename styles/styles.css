@@ -1,10 +1,10 @@
- .navbar {
+.navbar {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
     background-color: transparent;
     overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: cursive;
+    font-family:cursive;
   }
   .navbar a {
     float: left;
@@ -13,17 +13,27 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: cursive;
+    font-family:cursive;
   }
   .navbar a:hover {
     background-color: goldenrod;
     color: black;
-    font-family: cursive;
+    font-family:cursive;
   }
 
+.parallax {
+  background-image:radial-gradient(white, lightblue);
 
+  height: 900px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   .countries-to-visit {
       text-align: center;
+      font-family:cursive;
       padding-top: 1em;
   }
 
@@ -37,35 +47,46 @@
   }
 
   .countries-image {
-      /* border: 2px solid red; */
-      border-radius: 2em;
+  }
+
+  .norway-image {
+    box-shadow: 7px 7px lightgrey;
+    border-radius:2em;
+      margin:auto;
+      display:block;
+      width:1200px;
+      height:auto;
+      max-width:100%;
+
   }
 
   .countries-cities {
       flex-basis: 15%;
-      font-family: cursive;
+      font-family:cursive;
   }
+
   .countries-cities h2 {
-        text-align: center;
-     }
+    text-align:center;
+  }
 
   .countries-landmarks {
       flex-basis: 15%;
-      font-family: cursive;
+      font-family:cursive;
   }
 
   .countries-landmarks h2 {
-    text-align: center;
- }
+      text-align:center;
+  }
 
   .countries-citizens {
       flex-basis: 15%;
-      font-family: cursive;
+      font-family:cursive;
   }
 
   .countries-citizens h2 {
-    text-align: center;
+      text-align: center;
   }
+
    .logo {
       height: 150px;
       width: 150px;
