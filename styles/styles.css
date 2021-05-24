@@ -1,10 +1,13 @@
 .navbar {
-
     background-color: transparent;
     overflow: hidden;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .navbar {
+      font-size: 3em;
   }
 
   .navbar a {
@@ -14,6 +17,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: cursive;
   }
 
   .navbar a:hover {
@@ -24,7 +28,9 @@
 
   .countries-to-visit {
       text-align: center;
-      padding-top: 1em;
+      font-family: cursive;
+      font-style: italic;
+      color: white;
   }
 
   .countries {
@@ -36,22 +42,39 @@
   }
 
   .countries-image {
-      /* border: 2px solid red; */
+      /* border: 2px solid black; */
+      width: 100%;
+      height: 100%;
+  }
+
+
+  .countries h2 {
+      text-align: center;
+  }
+
+  .islands {
+      height: auto; 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1200px;
+      box-shadow: 7px 7px lightgrey;
       border-radius: 2em;
   }
 
+
   .countries-cities {
-      border: 1px solid black;
+      /* border: 1px solid black; */
       flex-basis: 15%;
   }
 
   .countries-landmarks {
-      border: 1px solid black;
+      /* border: 1px solid black; */
       flex-basis: 15%;
   }
 
   .countries-citizens {
-      border: 1px solid black;
+      /* border: 1px solid black; */
       flex-basis: 15%;
   }
 
@@ -68,30 +91,59 @@
   .countries-name {
       /* border: 5px solid black; */
       text-align: center;
-      font-size: 3em;
-      padding-top:1em;
-
-  }
-  .parallax{
-
-        /* background-image: url("/images/parallax-2.jpg"); */
-        background-image: radial-gradient(white, lightblue);
-        /* height: 1200px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; */
-
+      font-size: 4em;
+      color: black;
+      font-family: cursive;
+      font-weight: 900;
   }
 
-  .iceland-header-pics{
-    height: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    border-radius: 2em;
-    box-shadow: 7px 7px lightgrey;
-  }
+
+
+  .parallax {
+    /* The image used */
+    background-image: radial-gradient(white, lightblue);
   
+    /* Set a specific height */
+    min-height: 500px;
   
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+ .countries-cities {
+    font-family: cursive;
+}
+
+.countries-landmarks {
+    font-family: cursive; 
+}
+
+.countries-citizens {
+    font-family: cursive;
+}
+
+.footer {
+    font-family: cursive;
+    font-weight: 900;
+}
+
+.citizen {
+    font-size: 1.2em;
+}
+
+.land {
+    font-size: 1.2em;
+}
+
+.city {
+    font-size: 1.2em;
+}
+
+
+
+
+
