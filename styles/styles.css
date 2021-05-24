@@ -6,7 +6,6 @@
     overflow: hidden;
     font-family:cursive;
   }
-
   .navbar a {
     float: left;
     color: black;
@@ -16,7 +15,6 @@
     font-size: 17px;
     font-family:cursive;
   }
-
   .navbar a:hover {
     background-color: goldenrod;
     color: black;
@@ -36,13 +34,16 @@
   .countries-to-visit {
       text-align: center;
       font-family:cursive;
+      padding-top: 1em;
   }
 
   .countries {
       display: flex;
       flex-wrap: wrap;
+      /* border: 1px solid pink; */
       justify-content: space-evenly;
       flex-basis: 35%;
+      font-family: cursive;
   }
 
   .countries-image {
@@ -86,21 +87,61 @@
       text-align: center;
   }
 
-  .logo {
+   .logo {
       height: 150px;
       width: 150px;
       border-radius: 50%;
+      max-width: 100%;
   }
 
-  .footer {
+   .footer {
       text-align: center;
-      font-family:cursive;
+      font-family: cursive;
   }
 
-  .countries-name {
+   .countries-name {
       text-align: center;
       font-size: 3em;
-      font-family:cursive;
+      font-family: cursive;
+      max-width: 100%;
+      margin-top: 1em;
   }
+   .japan-image {
+      box-shadow: 7px 7px lightgrey;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 1200px;
+      height: auto;
+      max-width: 100%;
+      border-radius: 2em;
+}
+   .parallax {
+        background-image: radial-gradient(lightblue ,white);
 
+        min-height: 500px;
+      
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+  .countries-name {
+      /* border: 5px solid black; */
+      text-align: center;
+      font-size: 3em;
+      padding-top:1em;
+
+  }
+  .iceland-header-pics{
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 2em;
+    box-shadow: 7px 7px lightgrey;
+  }
+  
   
