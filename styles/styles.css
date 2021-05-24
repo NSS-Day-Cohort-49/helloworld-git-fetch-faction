@@ -20,18 +20,19 @@
 
   .countries-to-visit {
       text-align: center;
+      padding-top: 1em;
   }
 
   .countries {
       display: flex;
       flex-wrap: wrap;
-      border: 1px solid pink;
+      /* border: 1px solid pink; */
       justify-content: space-evenly;
       flex-basis: 35%;
   }
 
   .countries-image {
-      border: 2px solid red;
+      /* border: 2px solid red; */
   }
 
   .countries-cities {
@@ -60,9 +61,30 @@
   }
 
   .countries-name {
-      border: 5px solid black;
+      /* border: 5px solid black; */
       text-align: center;
       font-size: 3em;
+      padding-top:1em;
+
+  }
+  .parallax{
+
+        /* background-image: url("/images/parallax-2.jpg"); */
+        background-image: radial-gradient(white, lightblue);
+        /* height: 1200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+
   }
 
+  .iceland-header-pics{
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
   
