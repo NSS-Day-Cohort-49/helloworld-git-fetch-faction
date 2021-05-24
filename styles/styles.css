@@ -22,15 +22,23 @@
   }
 
 
+  .countries-to-visit {
+      text-align: center;
+      padding-top: 1em;
+  }
+
   .countries {
       display: flex;
       flex-wrap: wrap;
+      /* border: 1px solid pink; */
       justify-content: space-evenly;
       flex-basis: 35%;
       font-family: cursive;
   }
 
-  .countries-image { 
+  .countries-image {
+      /* border: 2px solid red; */
+      border-radius: 2em;
   }
 
   .countries-cities {
@@ -98,3 +106,21 @@
         background-size: cover;
       }
     
+  .countries-name {
+      /* border: 5px solid black; */
+      text-align: center;
+      font-size: 3em;
+      padding-top:1em;
+
+  }
+  .iceland-header-pics{
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 2em;
+    box-shadow: 7px 7px lightgrey;
+  }
+  
+  
