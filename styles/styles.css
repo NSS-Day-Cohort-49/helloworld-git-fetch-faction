@@ -26,9 +26,7 @@
 
 .parallax {
   background-image:radial-gradient(white, lightblue);
-
   height: 900px;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +53,7 @@
   .countries-image {
       /* border: 2px solid black; */
       width: 100%;
-      height: 100%;
+      height: auto%;
   }
 
 
@@ -144,16 +142,7 @@
       max-width: 100%;
       border-radius: 2em;
 }
-   .parallax {
-        background-image: radial-gradient(lightblue ,white);
 
-        min-height: 500px;
-      
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
     
   .countries-name {
       /* border: 5px solid black; */
