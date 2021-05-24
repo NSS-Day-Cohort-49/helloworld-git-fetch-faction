@@ -1,6 +1,10 @@
 .navbar {
+
     background-color: transparent;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .navbar a {
@@ -33,6 +37,7 @@
 
   .countries-image {
       /* border: 2px solid red; */
+      border-radius: 2em;
   }
 
   .countries-cities {
@@ -85,6 +90,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    border-radius: 2em;
+    box-shadow: 7px 7px lightgrey;
   }
   
   
